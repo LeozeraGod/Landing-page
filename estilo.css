@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-left:20px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.logo {
+    color: black;
+    text-decoration: bold;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray; 
+}
+nav .active a,
+nav a:hover  {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+section h1 h2 {
+    font-size: 1px;
+   
+}
+.corpo h1{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: -10px;
+   margin-bottom: 0px;
+}
+
+.corpo p {
+    margin-top: 5px;
+    color:black;
+    
+}
+section  a {
+    text-decoration: none;
+    color: blue;
+}
+
+.imagem img {
+    height: 400px;
+    margin-top: 20px;
+}
+
+.links a {
+    background-color: blue;
+    color: #ffffff;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 14px;
+    
+}
+.produto {
+    padding: 20px;
+    
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color:gray;
+    font-size: 12px;
+    margin-top:30px;
+}
